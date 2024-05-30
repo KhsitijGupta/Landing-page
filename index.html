@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fav car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="assets/mclaren-1.mp4" type="video/mp4">
+      </video>
+      <nav>
+        <div class="nav">
+            <div class="brand">
+                <p>Kshitij Gupta</p>
+            </div>
+            <div class="pages">
+                <ul>
+                    <button class="btnLoginPopup">Login</button>
+                    <li class="page">Home</li>
+                    <li class="page">Services </li>
+                    <li class="page">About </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+
+
+
+    <div class="container">
+        <div class="card login">
+            <span class="icon-close">
+                <ion-icon name="close"></ion-icon>
+            </span>
+            <form action="">
+    
+                <h1>Login</h1>
+                <div class="inp_box">
+                    <input type="email" placeholder="Email">
+                </div>
+                    
+                <div class="inp_box">
+                    <input type="password" placeholder="password">
+                </div>
+
+                <div class="rememberme">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#">Forget Password ?</a>
+                </div>
+                <button class="btn-login">LOGIN</button>
+                <div class="register">
+                    <p>Don't have an account ?<a href="#" class="register-link"> Register</a></p>
+                </div>
+            </form>
+        </div>
+        </div>
+        <div class="container container1">
+        <div class="card register">
+            <span class="icon-close close2">
+                <ion-icon name="close"></ion-icon>
+            </span>
+            <form action="">
+    
+                <h1>Registation</h1>
+                <div class="inp_box">
+                    <input type="text" placeholder="Username">
+                </div>
+
+                <div class="inp_box">
+                    <input type="email" placeholder="Email">
+                </div>
+                    
+                <div class="inp_box">
+                    <input type="password" placeholder="password">
+                </div>
+
+                <div class="rememberme">
+                    <label><input type="checkbox"> I agree to the terms & conditions </label>
+                </div>
+                <button class="btn-login">Register</button>
+                <div class="register-link">
+                    <p>Do you have a account ?<a href="#" class="login-link"> login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
